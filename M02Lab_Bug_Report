@@ -1,0 +1,5 @@
+Had a hard time getting the logic for the input validation correct. I was missing adding the variable name equal to the second string I was checking against.
+Also at some point I changed my == to != and that threw me off a little bit as well.
+I had trouble getting the output to look nicely spaced on the console. It just took a little bit of trial and error.
+I have a hard time putting comments because I do not want to make uneccessary comments but I can't tell where I need comments because it all is pretty straight
+forward to me.
