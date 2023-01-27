@@ -1,0 +1,10 @@
+Exercise 4.1 was not that difficult, I tried a couple times to get the logic correct. Once I figured it out there was no problems with the code running.
+Exercise 4.2 was difficult in getting the logic correct. Once I used an if statement for the variables, I wrote another if statement using one of the two provided variables.
+If the object was not one  the similar objects then it had to be to other like object.
+Exercise 5.1 easily capitalized the word after seeing the replace method used in the textbook.
+Exercise 5.2 was easily completed by grabbing the index of the tuple and matching it with the correct index of the answers variable.
+Exercise 6.1 runs without problem if you sort through the list and use a variable to print the numbers. My own interpretation or overthinking made the code have 
+logical errors at first.
+Exercise 6.2 used a while loop comparing the number to the guess and telling the program to print said statements depending on the number. It was difficult writing the 
+code to run without logical errors.
+Exercise 6.3 borrowed the logic from the previous exercise. Once the logic is correct the code runs without problem.
