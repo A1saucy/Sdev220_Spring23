@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="static/home.css">
+    
+  </head>
+  <body>
+    <main>
+      <form action = "write" method = "POST">{%csrf_token%}
+        {% if message %}
+        <h1> {{ message }} </h1>
+        <h2> {{ statement }} </h2>
+        <hr></hr>
+        <input type = "reset" value = "Clear" name = "reset">
+        <input type = "submit" value = "Load"
+        <ol >
+
+          <li><div class = "container0">
+            <textarea id="text0" rows = 7 placeholder = "Type here:" name = "Container0">
+
+
+            </textarea>
+          </div></li>
+          <li><div class = "container1">
+            <textarea id="text1" rows = 7 placeholder = "Type here:" name = "Container1"></textarea>
+          </div></li>
+          <li><div class = "container2">
+            <textarea id="text2" rows = 7 placeholder = "Type here:" name = "Container2"></textarea>
+          </div></li>
+          <li><div class = "container3">
+            <textarea id="text3" rows = 7 placeholder = "Type here:" name = "Container3"></textarea>
+          </div></li>
+          <li><div class = "container4">
+            <textarea id="text4" rows = 7 placeholder = "Type here:" name = "Container4"></textarea>
+          </div></li>
+          <li><div class = "container5">
+            <textarea id="text5" rows = 7 placeholder = "Type here:" name = "Container5"></textarea>
+          </div></li>
+          <li><div class = "container6">
+            <textarea id="text6" rows = 7 placeholder = "Type here:" name = "Container6"></textarea>
+          </div></li>
+
+
+      </ol>
+      
+      
+        {% else %}
+        <p>Something went very wrong :/</p>
+        {% endif %}  
+      </form>
+    </main>
+	<!--<script src="index.js"></script>-->
+  </body>
+</html>

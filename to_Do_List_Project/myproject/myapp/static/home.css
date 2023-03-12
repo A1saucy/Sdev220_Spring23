@@ -1,0 +1,18 @@
+body {
+	background-color: coral;
+}
+
+h1, h2 { 
+	text-align: center; 
+}
+
+textarea{
+	background-color: #D3D3D3; width: 450px; 
+	text-align: left;
+}
+
+ol{
+	text-align: center;
+	list-style-position: outside;
+}
+
